@@ -24,6 +24,10 @@ body {
     padding: 1rem;
 }
 
+.book__cover img {
+    width: 100%;
+}
+
 .book__title {
     color: #ffffff;
     font-size: 2rem;
