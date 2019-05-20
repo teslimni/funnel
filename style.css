@@ -1,6 +1,7 @@
 body {
     background: grey;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .site-wrap {
