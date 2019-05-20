@@ -1,0 +1,102 @@
+body {
+    background: grey;
+    max-width: 100%;
+}
+
+.site-wrap {
+    display: grid;
+    margin: auto;
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* grid-gap: 2rem; */
+}
+
+.grid-wrap {
+    margin: 0 10%;
+    padding: 2rem;
+}
+
+.book {
+    padding: 1rem;
+}
+
+.book__title {
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.opt-in {
+    border-radius: 3px;
+    border: 3px solid #fff;
+    padding: 1rem;
+}
+
+.opt-in__form {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.download {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.form__group {
+    margin: 1rem auto;
+}
+
+.form__group label {
+    margin-right: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    border-radius: 3px;
+    border: 1px solid grey;
+    display: block;
+    margin: 0 auto;
+    padding: 0.6rem;
+    width: 40%;
+}
+
+input[type="submit"] {
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+.guarantee {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 699px) {
+    input[type="text"],
+    input[type="email"] {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .book__cover img {
+        display: block;
+        margin: auto;
+    }
+}
