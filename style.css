@@ -59,7 +59,7 @@ body {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email_name"] {
     border-radius: 3px;
     border: 1px solid grey;
     display: block;
@@ -68,7 +68,8 @@ input[type="email"] {
     width: 40%;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button.button {
     background: orange;
     border: 1px solid orange;
     border-radius: 3px;
@@ -104,4 +105,29 @@ footer p {
         display: block;
         margin: auto;
     }
+}
+
+/* Thank you page styles */
+
+.thank-you h2 {
+    font-size: 3rem;
+}
+
+.thank-you .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.thank-you .book__cover img {
+    max-width: 60%;
+    width: 100%;
+}
+
+.instruction {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+}
+
+.guarantee {
+    font-size: 0.8rem;
 }
